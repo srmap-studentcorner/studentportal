@@ -1,0 +1,248 @@
+.navbar{
+    color:#ffff;
+    float:right;
+    margin-top: 10px;
+    margin-right: 10px;
+    overflow: hidden;
+}
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  .menu .fa {
+    -webkit-font-smoothing: antialiased;
+}
+
+  .dropdown {
+    float: left;
+    overflow: hidden;
+
+  }
+
+  .dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+
+  }
+
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color:#D3D3D3;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: static;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+
+
+  }
+
+  .dropdown-content a {
+    float: none;
+    color: #2A3F54;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+
+  }
+
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+
+  .info img{
+    height: 100px;
+  width: 35 px;
+  margin: 20px 10px;
+  border-radius: 50%;
+  border: 3px solid #ffff;
+  }
+
+  .info{
+    width: 270px;
+  height: 140px;
+
+  }
+
+  .name
+{
+  font-size: 20px;
+  color: white;
+  margin: -90px 5px 0px 120px;
+  text-align: left;
+  float: left;
+}
+
+.dropb {
+  background-color: #2A3F54;
+  color: white;
+  padding: 20px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+
+}
+
+/* Dropdown button on hover & focus */
+.dropb:hover, .dropb:focus {
+  background-color: #2A3F54;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.drop {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropc {
+  display: none;
+  position: static;
+  background-color: #2A3F54;
+  min-width: 230px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropc a {
+  color: white;
+  padding: 12px 16px 0px 50px;
+  text-decoration: none;
+  display: block;
+}
+
+
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+
+
+
+.profile{
+  font-family: Arial;
+  padding: 0px 0px 0px 250px;
+  color:#73879C;
+  font-weight: lighter;
+  font-size: 14px;
+}
+
+
+.subject {
+  padding-left: 250px;
+  color:#000066;
+  font-family: Arial;
+  font-weight: lighter;
+
+}
+
+
+.timetable{
+  padding-left: 250px;
+  color:#000066;
+  font-family: Arial;
+  font-weight: lighter;
+}
+
+.timetablehead{
+  font-size: 12px;
+  font-weight: bold;
+  font-family: verdana;
+  background: url("https://student.srmap.edu.in/srmapstudentcorner/resources/Image/bar1.jpg");
+  padding: 0px 0px 0px 0px;
+  text-align: center;
+}
+
+.timetabledetails{
+  font-family: verdana;
+  background: url("https://student.srmap.edu.in/srmapstudentcorner/resources/Image/bar1.jpg");
+  padding: 0px 0px 0px 0px;
+  text-align: center;
+}
+tr.subheader{
+  background-color: #2A3F54;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+td.subheader{
+  background-color: #2A3F54;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+
+.attendance{
+  padding-left: 250px;
+  color:#000066;
+  font-family: Arial;
+  font-weight: lighter;
+}
+
+
+.panel-primary {
+  border-color: #484622;
+}
+
+
+.panel {
+  margin-bottom: 20px;
+  background-color: #fff;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+  box-shadow: 0 1px 1px rgba(0,0,0,.05);
+}
+
+
+.fee{
+  padding-left: 250px;
+  color:#000066;
+  font-family: Arial;
+  font-weight: lighter;
+}
+
+.hostel{
+  padding-left: 250px;
+  color:#000066;
+  font-family: Arial;
+  font-weight: lighter;
+}
+
+.sem{
+  padding-left: 250px;
+  color:		#808080;
+  font-family: Arial;
+  font-weight: lighter;
+}
+
+.marks{
+  padding-left: 250px;
+  color:		#000066;
+  font-family: Arial;
+  font-weight: lighter;
+
+}
+.paid{
+  border-width: thin;
+  
+}

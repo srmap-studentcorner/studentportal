@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SRM University AP</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="/srmapstudentcorner/resources/css/bootstrap.min.css" rel="stylesheet">
+        <link href="/srmapstudentcorner/resources/css/font-awesome.css" rel="stylesheet">
+        <link href="/srmapstudentcorner/resources/css/custom.min.css" rel="stylesheet">
+        <link href="/srmapstudentcorner/resources/css/jquery-ui.css" rel="stylesheet">
+        <script>
+          function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown menu if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropb')) {
+    var dropdowns = document.getElementsByClassName("dropc");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+
+
+
+function myFinance() {
+  document.getElementById("myDropf").classList.toggle("show");
+}
+
+// Close the dropdown menu if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropb')) {
+    var dropdownf = document.getElementsByClassName("dropc");
+    var i;
+    for (i = 0; i < dropdownf.length; i++) {
+      var openDropdown = dropdownf[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+
+function myExam() {
+  document.getElementById("myDrope").classList.toggle("show");
+}
+
+// Close the dropdown menu if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropb')) {
+    var dropdowne = document.getElementsByClassName("dropc");
+    var i;
+    for (i = 0; i < dropdowne.length; i++) {
+      var openDropdown = dropdowne[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+
+
+function myHostel() {
+  document.getElementById("myDroph").classList.toggle("show");
+}
+
+// Close the dropdown menu if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropb')) {
+    var dropdownh = document.getElementsByClassName("dropc");
+    var i;
+    for (i = 0; i < dropdownh.length; i++) {
+      var openDropdown = dropdownh[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+
+
+        </script>
+</head>
+<body>
+    <div class="top-bar" style="width:1510px;height:60px;border:0px solid ; background-color:#2A3F54; margin-top:-10px"><img src="https://student.srmap.edu.in/srmapstudentcorner/resources/Image/srmaplogo.jpg" width="220px" height="60px" align="top">
+        <div class="navbar">
+            <div class="dropdown">
+              <button class="dropbtn">DIVYANSH CHITTRANSHI
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content" style="right:0">
+                <a href="profile1.html">Profile</a>
+                <a href="index.html">Log Out</a>
+               </div>
+            </div>
+          </div>
+
+    </div>
+
+    <div class="fee">
+      <h2 style="color: #000066">FEES DUE</h2>
+        <table border=1 style="border-collapse: collapse;" width="100%">
+          <tr style="background-color: #add8e6;" height="50">
+            <th>S.NO</th>
+            <th>Fee Head</th>
+            <th>Due Amount (INR)</th>
+            <th>Collected Amount (INR)</th>
+            <th>To be Paid Amount (INR)</th>
+          </tr>
+          <tr height="50">
+            <td align="center">1</td>
+            <td align="center">No Due Fee</td>
+            <td align="right">0.00</td>
+            <td align="right">0.00</td>
+            <td align="right">0.00</td>
+          </tr>
+
+        </table>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="Menu" style="width:230px;height:735px;border:0px solid ; background-color:#2A3F54; margin-left:-10px ; margin-top: -168px;" >
+        <div class="info">
+            <img src="https://student.srmap.edu.in/srmapstudentcorner/resources/photos/c830611cfcb94890f2bc41cca17e7734.jpg?rn=2828" >
+        </div>
+        <div class="name">
+        Welcome,<br>
+        Divyansh<br>Chittranshi
+      </div>
+
+      <div class="drop">
+        <button onclick="myFunction()" class="dropb">
+          <i class="fa fa-book"></i>&nbsp&nbsp
+          Academics &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  &nbsp&nbsp&nbsp&nbsp&nbsp
+          <i class="fa fa-chevron-down"></i>
+        </button>
+        <div id="myDropdown" class="dropc">
+          <a href="subject.html"><i class="fa fa-edit"></i>&nbsp&nbsp&nbspStudent-Wise &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspSubjects</a>
+          <a href="timetable.html"><i class="fa fa-calendar"></i>&nbsp&nbsp&nbspTime Table</a>
+          <a href="attendance.html"><i class="fa fa-hourglass"></i>&nbsp&nbsp&nbspAttendance Details</a></div>
+      </div>
+
+      <div class="drop">
+        <button onclick="myFinance()" class="dropb">
+          <i class="fa fa-dollar"></i>&nbsp&nbsp
+          Finance &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+          <i class="fa fa-chevron-down"></i>
+        </button>
+        <div id="myDropf" class="dropc">
+          <a href="finance1.html"><i class="fa fa-rupee"></i>&nbsp&nbsp&nbspFee Due Details</a>
+          <a href="paid.html"><i class="fa fa-dollar"></i>&nbsp&nbsp&nbspFee Paid Details</a>
+        </div>
+
+
+        <div class="drop">
+          <button onclick="myExam()" class="dropb">
+            <i class="fa fa-edit"></i>
+            Examination &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+            <i class="fa fa-chevron-down"></i>
+          </button>
+          <div id="myDrope" class="dropc">
+            <a href="currentsem1.html"><i class="fa fa-dashboard"></i>&nbsp&nbsp&nbspCurrent Semester Result</a>
+            <a href="marks1.html"><i class="fa fa-map"></i>&nbsp&nbsp&nbspExam Mark Details</a>
+          </div>
+
+
+          <div class="drop">
+            <button onclick="myHostel()" class="dropb">
+              <i class="fa fa-building-o"></i>&nbsp
+              Hostel &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+              <i class="fa fa-chevron-down"></i>
+            </button>
+            <div id="myDroph" class="dropc">
+              <a href="hostel.html"><i class="fa fa-hospital-o"></i>&nbsp&nbsp&nbspRoom Details</a>
+              <a href="https://srmap.edu.in/hostel"><i class="fa fa-stack-exchange"></i>&nbsp&nbsp&nbspHostel Layout & &nbsp&nbsp&nbsp&nbsp&nbsp&nbspFAQs</a>
+            </div>
+          </div>
+          </div>
+  </div>
+      </div>
+
+
+
+
+
+
+
+
+
+  </body>
+  </html>
