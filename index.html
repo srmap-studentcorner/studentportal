@@ -33,13 +33,13 @@
                                   <div class="panel-body">
                                       
                                           <div class="form-group textbox-wrap">
-                                              <b>Register Number</b> <input type="text" class="form-control"  placeholder="Enter Register Number / Application Number" required="required">
+                                              <b>Register Number</b> <input type="text" class="form-control"  placeholder="Enter Register Number / Application Number" required="required" id="username">
                                           </div>
                                           <div class="form-group textbox-wrap" data-provide="datepicker">
-                                              <b>Password</b> <input type="password" class="form-control"  placeholder="Password" required="required">
+                                              <b>Password</b> <input type="password" class="form-control"  placeholder="Password" required="required" id="password">
                                           </div>
                                           
-                                          <button type="submit" style="width: 100%; font-size:1.1em;" class="btn btn-large btn btn-success btn-lg btn-block" onclick="window.location.href='profile1.html'"><b>Login</b></button>
+                                          <button type="submit" style="width: 100%; font-size:1.1em;" class="btn btn-large btn btn-success btn-lg btn-block" onclick="window.location.href='profile1.html'" id='register'><b>Login</b></button>
                                           
                                       
                                       <!--<a href="/srmapstudentcorner/StudentPasswordReset">
@@ -62,5 +62,14 @@
                                 www.firstlineinfotech.com 
                             </div>
                           </div>
+                <script>
+                    
+                    
+                    document.getElementById('register').addEventListener('click',function(){
+                        if(   document.getElementById('username').value=='AP18110010194' && document.getElementById('password').value=='Avinash1702'){
+                            window.location.href='profile1.html'  
+                         }
+                    })
+                </script>
                           </body>
                       </html>
