@@ -66,12 +66,15 @@
                     
                     
                     
-                    document.getElementById('register').addEventListener('click',function(){
+                      document.getElementById('register').addEventListener('click',function(){
                         if(   document.getElementById('username').value=='AP18110010194' && document.getElementById('password').value=='Avinash1702'){
                             window.location.href='profile1.html'
-                            
+
                          }else{
-                             alert('incorrect');
+
+                             document.getElementById('error').style.display='unset';
+                             document.getElementById('username').value='' 
+                             document.getElementById('password').value=''
                          }
 
                     })
